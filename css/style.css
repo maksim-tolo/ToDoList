@@ -1,0 +1,80 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #eeeeee;
+	font-family: sans-serif;
+
+}
+
+.app {
+	width: 500px;
+	display: block;
+	margin: auto;
+	text-align: center;
+	background: white;
+	border-radius: 6px;
+	box-shadow: 0 0 10px;
+}
+
+.todoList {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	margin: 0;
+	padding: 20px;
+}
+
+.add {
+	width: 450px;
+	height: 40px;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+::-webkit-input-placeholder {font-style: italic;}
+::-moz-placeholder          {font-style: italic;}
+:-moz-placeholder           {font-style: italic;}
+:-ms-input-placeholder      {font-style: italic;}
+
+.app > div {
+	text-align: left;
+}
+
+.app > div > label {
+	display: none;
+	font-size: 12px;
+	padding-left: 20px;
+}
+
+li {
+	padding: 15px 0 15px 0;
+	font-size: 24px;
+}
+
+footer {
+	text-align: left;
+	background: #f4fce8;
+	padding: 10px 20px 10px 20px;
+	border-top: 1px solid #cccccc;
+	display: none;
+}
+
+footer > div {
+	font-size: 12px;
+	cursor: pointer;
+	display: inline-block;
+	padding: 5px;
+	border-radius: 20px;
+	background: #dbe2d0;
+	color: #555555;
+}
+
+li > div {
+	float: right;
+	display: none;
+	cursor: pointer;
+	color: #cccccc;
+}
